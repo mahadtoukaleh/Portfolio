@@ -1,0 +1,162 @@
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+    /* Header */
+    header {
+    background-color: #333;
+    color: #fff;
+    height: 140px;
+    }
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+  }
+    
+    nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    list-style: none;
+    margin-right: 20px;
+    border: none;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    border: none;
+    }
+
+  nav ul li a.active {
+    text-decoration: underline;
+  }
+    
+     nav ul li a:hover {
+    color: #fff;
+    }
+  /* Contact Section */
+  #contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  #contact button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+ /* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px
+  }
